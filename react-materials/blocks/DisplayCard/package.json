@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/display-card-block",
-  "version": "0.1.8",
+  "version": "0.2.3",
   "description": "展示型卡片",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/DisplayCard"
   },
   "license": "MIT",
   "keywords": [
@@ -34,19 +32,16 @@
   },
   "blockConfig": {
     "name": "display-card",
-    "snapshot": "https://img.alicdn.com/tfs/TB1AwCEXNGYBuNjy0FnXXX5lpXa-1900-278.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1AwCEXNGYBuNjy0FnXXX5lpXa-1900-278.png",
     "themePackage": "@icedesign/skin",
     "title": "展示型卡片",
     "categories": [
       "数据展示"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/display-card"
 }

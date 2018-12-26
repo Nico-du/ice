@@ -1,7 +1,6 @@
 <template>
-  <div className={{name}}>
+  <div class="{{name}}">
     <h1>{{className}}</h1>
-    <router-view/>
   </div>
 </template>
 
@@ -15,7 +14,7 @@ export default {
 
   created() {},
 
-  methods() {},
+  methods: {},
 };
 </script>
 

@@ -2,14 +2,14 @@ const { resolve } = require('path');
 const { findMaterials, keys } = require('../shared/utils');
 
 module.exports = function generate({ cwd }) {
-  const materialMap = findMaterials();
-  const materialList = keys(materialMap);
+  const materialList = findMaterials();
 
   for (let i = 0; i < materialList.length; i++) {
+    const { directory, ...options } = materialList[i];
     generateDatabase({
-      name: materialList[i],
-      path: resolve(cwd, materialList[i]),
-      options: materialMap[materialList[i]],
+      name: directory,
+      path: resolve(cwd, directory),
+      options: options,
     });
   }
 };

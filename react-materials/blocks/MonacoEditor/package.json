@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/monaco-editor-block",
-  "version": "0.1.9",
+  "version": "0.1.12",
   "description": "Monaco 代码编辑器",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/MonacoEditor"
   },
   "license": "MIT",
   "keywords": [
@@ -37,19 +35,16 @@
   },
   "blockConfig": {
     "name": "monaco-editor",
-    "snapshot": "https://gw.alicdn.com/tfs/TB1bOKfjvDH8KJjy1XcXXcpdXXa-1886-1236.png",
+    "screenshot": "https://gw.alicdn.com/tfs/TB1bOKfjvDH8KJjy1XcXXcpdXXa-1886-1236.png",
     "themePackage": "@icedesign/skin",
     "title": "Monaco 代码编辑器",
     "categories": [
       "表单"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/monaco-editor"
 }

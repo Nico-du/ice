@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/filter-with-search-block",
-  "version": "0.1.7",
+  "version": "0.1.10",
   "description": " 含搜索筛选",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/FilterWithSearch"
   },
   "license": "MIT",
   "keywords": [
@@ -34,19 +32,16 @@
   },
   "blockConfig": {
     "name": "filter-with-search",
-    "snapshot": "https://img.alicdn.com/tfs/TB1vqnmihTI8KJjSspiXXbM4FXa-1906-136.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1vqnmihTI8KJjSspiXXbM4FXa-1906-136.png",
     "themePackage": "@icedesign/skin",
     "title": " 含搜索筛选",
     "categories": [
       "筛选"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/filter-with-search"
 }

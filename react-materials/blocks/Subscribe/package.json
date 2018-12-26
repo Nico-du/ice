@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/subscribe-block",
-  "version": "0.1.8",
+  "version": "0.1.11",
   "description": "订阅",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/Subscribe"
   },
   "license": "MIT",
   "keywords": [
@@ -36,19 +34,16 @@
   },
   "blockConfig": {
     "name": "subscribe",
-    "snapshot": "https://img.alicdn.com/tfs/TB17bQvc_tYBeNjy1XdXXXXyVXa-2352-150.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB17bQvc_tYBeNjy1XdXXXXyVXa-2352-150.png",
     "themePackage": "@icedesign/skin",
     "title": "订阅",
     "categories": [
       "表单"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/subscribe"
 }

@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/message-list-block",
-  "version": "0.1.9",
+  "version": "0.1.12",
   "description": "消息列表",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/MessageList"
   },
   "license": "MIT",
   "keywords": [
@@ -34,19 +32,16 @@
   },
   "blockConfig": {
     "name": "message-list",
-    "snapshot": "https://img.alicdn.com/tfs/TB1BhsgcDtYBeNjy1XdXXXXyVXa-2354-856.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1BhsgcDtYBeNjy1XdXXXXyVXa-2354-856.png",
     "themePackage": "@icedesign/skin",
     "title": "消息列表",
     "categories": [
       "列表"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/message-list"
 }

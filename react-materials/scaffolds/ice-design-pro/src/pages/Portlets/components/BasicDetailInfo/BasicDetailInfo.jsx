@@ -19,10 +19,10 @@ const dataSource = {
   status: '进行中',
   remark: '暂无',
   pics: [
-    'https://img.alicdn.com/imgextra/i3/672246894/TB2ziLDdbsTMeJjSszdXXcEupXa_!!672246894-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp',
-    'https://img.alicdn.com/imgextra/i1/2645911918/TB2qQA9fk.HL1JjSZFuXXX8dXXa_!!2645911918-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp',
-    'https://img.alicdn.com/bao/uploaded/TB2obaBXeLyQeBjy1XaXXcexFXa_!!0-dgshop.jpg_180x180xzq90.jpg_.webp',
-    'https://img.alicdn.com/tps/i1/99136475/TB2Cc7saE1HTKJjSZFmXXXeYFXa_!!0-juitemmedia.jpg_180x180q90.jpg_.webp',
+    require('./images/img4.jpg'),
+    require('./images/img3.jpg'),
+    require('./images/img2.jpg'),
+    require('./images/img1.jpg'),
   ],
 };
 
@@ -121,14 +121,17 @@ const styles = {
   basicDetailTitle: {
     margin: '10px 0',
     fontSize: '16px',
+    color: '#333',
   },
   infoColumn: {
     marginLeft: '16px',
   },
   infoColumnTitle: {
     margin: '20px 0',
+    height: '22px',
+    lineHeight: '22px',
     paddingLeft: '10px',
-    borderLeft: '3px solid #3080fe',
+    borderLeft: '4px solid #2077ff',
   },
   infoItems: {
     padding: 0,

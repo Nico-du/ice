@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/chart-funnel-block",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/ChartFunnel"
   },
   "license": "MIT",
   "keywords": [
@@ -36,19 +34,16 @@
   },
   "blockConfig": {
     "name": "chart-funnel",
-    "snapshot": "https://img.alicdn.com/tfs/TB14y8xiv6H8KJjy0FjXXaXepXa-1888-1038.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB14y8xiv6H8KJjy0FjXXaXepXa-1888-1038.png",
     "themePackage": "@icedesign/skin",
     "title": "漏斗图",
     "categories": [
       "图表"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/chart-funnel"
 }

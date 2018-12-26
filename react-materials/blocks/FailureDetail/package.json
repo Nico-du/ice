@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/failure-detail-block",
-  "version": "0.1.7",
+  "version": "0.1.11",
   "description": "提交失败详情展示",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/FailureDetail"
   },
   "license": "MIT",
   "keywords": [
@@ -34,19 +32,16 @@
   },
   "blockConfig": {
     "name": "failure-detail",
-    "snapshot": "https://gw.alicdn.com/tfs/TB15u0eisLJ8KJjy0FnXXcFDpXa-1326-824.png",
+    "screenshot": "https://gw.alicdn.com/tfs/TB15u0eisLJ8KJjy0FnXXcFDpXa-1326-824.png",
     "themePackage": "@icedesign/skin",
     "title": "提交失败详情展示",
     "categories": [
       "信息展示"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/failure-detail"
 }

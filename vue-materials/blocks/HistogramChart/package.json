@@ -1,7 +1,7 @@
 {
   "name": "@vue-materials/histogram-chart-block",
   "version": "1.0.0",
-  "description": "",
+  "description": "v-charts 柱状图",
   "author": "ice-admin@alibaba-inc.com",
   "files": [
     "src/",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/HistogramChart"
   },
   "license": "MIT",
   "keywords": [
@@ -32,6 +32,6 @@
     "categories": [
       "图表"
     ],
-    "snapshot": "https://img.alicdn.com/tfs/TB19vkHnuuSBuNjy1XcXXcYjFXa-1960-924.png"
+    "screenshot": "https://img.alicdn.com/tfs/TB1Gfs.pTtYBeNjy1XdXXXXyVXa-1944-848.png"
   }
 }

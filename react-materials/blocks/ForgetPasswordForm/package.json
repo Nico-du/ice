@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/forget-password-form-block",
-  "version": "0.1.11",
+  "version": "0.1.14",
   "description": "忘记密码",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/ForgetPasswordForm"
   },
   "license": "MIT",
   "keywords": [
@@ -36,19 +34,16 @@
   },
   "blockConfig": {
     "name": "forget-password-form",
-    "snapshot": "https://img.alicdn.com/tfs/TB11ywwc_tYBeNjy1XdXXXXyVXa-2322-398.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB11ywwc_tYBeNjy1XdXXXXyVXa-2322-398.png",
     "themePackage": "@icedesign/skin",
     "title": "忘记密码",
     "categories": [
       "表单"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/forget-password-form"
 }

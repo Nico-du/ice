@@ -1,13 +1,11 @@
 {
   "name": "@icedesign/area-stack-chart-block",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "叠加面积图",
   "main": "src/index.js",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -15,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/AreaStackChart"
   },
   "license": "MIT",
   "keywords": [
@@ -37,19 +35,16 @@
   },
   "blockConfig": {
     "name": "area-stack-chart",
-    "snapshot": "https://img.alicdn.com/tfs/TB13crWidfJ8KJjy0FeXXXKEXXa-1754-994.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB13crWidfJ8KJjy0FeXXXKEXXa-1754-994.png",
     "themePackage": "@icedesign/skin",
     "title": "叠加面积图",
     "categories": [
       "图表"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/area-stack-chart"
 }

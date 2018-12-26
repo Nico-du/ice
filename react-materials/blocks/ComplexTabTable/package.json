@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/complex-tab-table-block",
-  "version": "0.1.10",
+  "version": "0.1.14",
   "description": "附带复杂的 Tab 多级筛选项的表格",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/ComplexTabTable"
   },
   "license": "MIT",
   "keywords": [
@@ -39,19 +37,16 @@
   },
   "blockConfig": {
     "name": "complex-tab-table",
-    "snapshot": "https://img.alicdn.com/tfs/TB1tUGncntYBeNjy1XdXXXXyVXa-2314-1466.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1tUGncntYBeNjy1XdXXXXyVXa-2314-1466.png",
     "themePackage": "@icedesign/skin",
     "title": "复杂 Tab 筛选表格",
     "categories": [
       "表格"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/complex-tab-table"
 }

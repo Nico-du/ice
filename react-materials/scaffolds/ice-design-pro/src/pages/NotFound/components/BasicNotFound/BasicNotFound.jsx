@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import IceContainer from '@icedesign/container';
 import './BasicNotFound.scss';
 
@@ -12,7 +12,7 @@ export default class BasicNotFound extends Component {
         <IceContainer>
           <div style={styles.exceptionContent} className="exception-content">
             <img
-              src="https://img.alicdn.com/tfs/TB1txw7bNrI8KJjy0FpXXb5hVXa-260-260.png"
+              src={require('./images/TB1txw7bNrI8KJjy0FpXXb5hVXa-260-260.png')}
               style={styles.image}
               className="imgException"
               alt="页面不存在"

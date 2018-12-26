@@ -1,6 +1,6 @@
 /* eslint react/no-string-refs:0 */
 import React, { Component } from 'react';
-import { hashHistory } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import { Input, Button, Checkbox, Grid } from '@icedesign/base';
 import {
   FormBinderWrapper as IceFormBinderWrapper,
@@ -14,8 +14,9 @@ const { Row, Col } = Grid;
 
 // 寻找背景图片可以从 https://unsplash.com/ 寻找
 const backgroundImage =
-  'https://img.alicdn.com/tfs/TB1zsNhXTtYBeNjy1XdXXXXyVXa-2252-1500.png';
+  require('./images/TB1zsNhXTtYBeNjy1XdXXXXyVXa-2252-1500.png');
 
+@withRouter
 export default class UserLogin extends Component {
   static displayName = 'UserLogin';
 
@@ -49,7 +50,8 @@ export default class UserLogin extends Component {
       }
       console.log('values:', values);
       console.log(this.props);
-      hashHistory.push('/');
+      this.props.history.push('/');
+      // HashRouter.push('/');
     });
   };
 

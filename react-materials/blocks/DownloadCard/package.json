@@ -1,13 +1,11 @@
 {
   "name": "@icedesign/download-card-block",
-  "version": "0.1.7",
+  "version": "0.1.11",
   "description": "下载型信息卡片",
   "main": "lib/index.js",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -15,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/DownloadCard"
   },
   "license": "MIT",
   "keywords": [
@@ -36,7 +34,7 @@
   },
   "blockConfig": {
     "name": "download-card",
-    "snapshot": "https://img.alicdn.com/tfs/TB1HLu1hLDH8KJjy1XcXXcpdXXa-938-688.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1HLu1hLDH8KJjy1XcXXcpdXXa-938-688.png",
     "themePackage": "@icedesign/skin",
     "title": "下载型信息卡片",
     "categories": [
@@ -44,12 +42,9 @@
       "列表"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/download-card"
 }

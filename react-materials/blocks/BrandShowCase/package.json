@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/brand-show-case-block",
-  "version": "0.1.8",
+  "version": "0.1.12",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/BrandShowCase"
   },
   "license": "MIT",
   "keywords": [
@@ -35,7 +33,7 @@
   },
   "blockConfig": {
     "name": "brand-show-case",
-    "snapshot": "https://img.alicdn.com/tfs/TB1DGFejr_I8KJjy1XaXXbsxpXa-1910-860.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1DGFejr_I8KJjy1XaXXbsxpXa-1910-860.png",
     "themePackage": "@icedesign/skin",
     "title": "品牌展示",
     "categories": [
@@ -43,12 +41,9 @@
       "欢迎页"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/brand-show-case"
 }

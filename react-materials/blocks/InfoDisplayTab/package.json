@@ -1,13 +1,11 @@
 {
   "name": "@icedesign/info-display-tab-block",
-  "version": "0.1.11",
+  "version": "0.1.15",
   "description": "标签页信息展示",
   "main": "lib/index.js",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -15,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/InfoDisplayTab"
   },
   "license": "MIT",
   "keywords": [
@@ -37,19 +35,16 @@
   },
   "blockConfig": {
     "name": "info-display-tab",
-    "snapshot": "https://img.alicdn.com/tfs/TB1AltjcuuSBuNjy1XcXXcYjFXa-2344-1378.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1AltjcuuSBuNjy1XcXXcYjFXa-2344-1378.png",
     "themePackage": "@icedesign/skin",
     "title": "标签页信息展示",
     "categories": [
       "信息展示"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/info-display-tab"
 }

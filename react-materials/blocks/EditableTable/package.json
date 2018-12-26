@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/editable-table-block",
-  "version": "0.1.8",
+  "version": "0.1.11",
   "description": "可编辑内容的表格",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/EditableTable"
   },
   "license": "MIT",
   "keywords": [
@@ -34,19 +32,16 @@
   },
   "blockConfig": {
     "name": "editable-table",
-    "snapshot": "https://img.alicdn.com/tfs/TB1SXIqb1SSBuNjy0FlXXbBpVXa-2348-724.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1SXIqb1SSBuNjy0FlXXbBpVXa-2348-724.png",
     "themePackage": "@icedesign/skin",
     "title": "可编辑表格",
     "categories": [
       "表格"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/editable-table"
 }

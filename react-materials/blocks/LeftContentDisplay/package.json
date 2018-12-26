@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/left-content-display-block",
-  "version": "0.1.8",
+  "version": "0.1.12",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/LeftContentDisplay"
   },
   "license": "MIT",
   "keywords": [
@@ -36,7 +34,7 @@
   },
   "blockConfig": {
     "name": "left-content-display",
-    "snapshot": "https://img.alicdn.com/tfs/TB1g58VjxrI8KJjy0FpXXb5hVXa-2368-1192.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1g58VjxrI8KJjy0FpXXb5hVXa-2368-1192.png",
     "themePackage": "@icedesign/skin",
     "title": "功能描述-右图左文",
     "categories": [
@@ -44,12 +42,9 @@
       "欢迎页"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/left-content-display"
 }

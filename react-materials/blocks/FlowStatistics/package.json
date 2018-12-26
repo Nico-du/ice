@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/flow-statistics-block",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/FlowStatistics"
   },
   "license": "MIT",
   "keywords": [
@@ -24,10 +22,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
   },
   "dependencies": {
     "@antv/data-set": "^0.8.5",
@@ -45,12 +39,13 @@
   },
   "blockConfig": {
     "name": "flow-statistics",
-    "snapshot": "https://img.alicdn.com/tfs/TB1VaqjbTtYBeNjy1XdXXXXyVXa-2854-1126.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1VaqjbTtYBeNjy1XdXXXXyVXa-2854-1126.png",
     "title": "流量统计",
     "categories": [
       "图表",
       "数据展示"
     ],
     "themePackage": "@icedesign/skin"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/flow-statistics"
 }

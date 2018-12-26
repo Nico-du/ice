@@ -1,13 +1,11 @@
 {
   "name": "@icedesign/signup-form-block",
-  "version": "0.1.10",
+  "version": "0.1.13",
   "description": "登录表单",
   "main": "lib/index.js",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -15,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/SignupForm"
   },
   "license": "MIT",
   "keywords": [
@@ -36,19 +34,16 @@
   },
   "blockConfig": {
     "name": "signup-form",
-    "snapshot": "https://img.alicdn.com/tfs/TB1wHA9ib_I8KJjy1XaXXbsxpXa-616-612.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1wHA9ib_I8KJjy1XaXXbsxpXa-616-612.png",
     "themePackage": "@icedesign/skin",
     "title": "登录表单",
     "categories": [
       "表单"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/signup-form"
 }

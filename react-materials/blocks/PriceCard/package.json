@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/price-card-block",
-  "version": "0.1.8",
+  "version": "0.1.12",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/PriceCard"
   },
   "license": "MIT",
   "keywords": [
@@ -35,7 +33,7 @@
   },
   "blockConfig": {
     "name": "price-card",
-    "snapshot": "https://img.alicdn.com/tfs/TB1Mn6dcuuSBuNjy1XcXXcYjFXa-2836-1006.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1Mn6dcuuSBuNjy1XcXXcYjFXa-2836-1006.png",
     "themePackage": "@icedesign/skin",
     "title": "价格展示",
     "categories": [
@@ -43,12 +41,9 @@
       "欢迎页"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/price-card"
 }

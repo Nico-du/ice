@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/simple-video-player-block",
-  "version": "0.1.2",
+  "version": "0.1.6",
   "description": "简单的视频播放器",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/SimpleVideoPlayer"
   },
   "license": "MIT",
   "keywords": [
@@ -24,10 +22,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  },
-  "scripts": {
-    "start": "ice block dev",
-    "prepublish": "ice block build"
   },
   "dependencies": {
     "@icedesign/base": "^0.2.0",
@@ -45,11 +39,12 @@
   },
   "blockConfig": {
     "name": "simple-video-player",
-    "snapshot": "https://img.alicdn.com/tfs/TB1SlthfwmTBuNjy1XbXXaMrVXa-2350-918.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1SlthfwmTBuNjy1XbXXaMrVXa-2350-918.png",
     "title": "简单视频播放器",
     "categories": [
       "视频"
     ],
     "themePackage": "@icedesign/skin"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/simple-video-player"
 }

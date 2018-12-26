@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/our-team-block",
-  "version": "0.1.9",
+  "version": "0.2.3",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/OurTeam"
   },
   "license": "MIT",
   "keywords": [
@@ -34,7 +32,7 @@
   },
   "blockConfig": {
     "name": "our-team",
-    "snapshot": "https://img.alicdn.com/tfs/TB1Bw3zauuSBuNjy1XcXXcYjFXa-2168-1460.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1Bw3zauuSBuNjy1XcXXcYjFXa-2168-1460.png",
     "themePackage": "@icedesign/skin",
     "title": "我们的团队",
     "categories": [
@@ -42,12 +40,9 @@
       "欢迎页"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/our-team"
 }

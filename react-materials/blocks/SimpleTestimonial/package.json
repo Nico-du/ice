@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/simple-testimonial-block",
-  "version": "0.1.7",
+  "version": "0.1.11",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/SimpleTestimonial"
   },
   "license": "MIT",
   "keywords": [
@@ -34,7 +32,7 @@
   },
   "blockConfig": {
     "name": "simple-testimonial",
-    "snapshot": "https://img.alicdn.com/tfs/TB1X6osi4rI8KJjy0FpXXb5hVXa-1906-474.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1X6osi4rI8KJjy0FpXXb5hVXa-1906-474.png",
     "themePackage": "@icedesign/skin",
     "title": "简单的客户评价",
     "categories": [
@@ -42,12 +40,9 @@
       "欢迎页"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/simple-testimonial"
 }

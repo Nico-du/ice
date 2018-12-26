@@ -9,19 +9,19 @@
 </template>
 
 <script>
-import { NavBar, SideBar, AppMain } from './components'
+import { NavBar, SideBar, AppMain } from './components';
 
 export default {
   name: 'layout',
   components: {
     NavBar,
     SideBar,
-    AppMain
+    AppMain,
   },
-}
+};
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
+<style lang="scss" scoped>
 .app-wrapper {
   position: relative;
   height: 100%;

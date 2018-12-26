@@ -1,33 +1,43 @@
 <template>
   <div class="app-wrapper" >
-    <sidebar class="sidebar-container"></sidebar>
+    <side-bar class="sidebar-container"></side-bar>
     <div class="main-container">
-      <navbar></navbar>
+      <nav-bar></nav-bar>
       <app-main></app-main>
     </div>
   </div>
 </template>
 
 <script>
-import { Navbar, Sidebar, AppMain } from './components'
-
+import { NavBar, SideBar, AppMain } from './components';
+import './styles/index.scss';
 export default {
   name: 'layout',
   components: {
-    Navbar,
-    Sidebar,
-    AppMain
+    NavBar,
+    SideBar,
+    AppMain,
   },
-}
+};
 </script>
 
-<style rel="stylesheet/scss" lang="scss" scoped>
-@import './scss/index.scss';
-
+<style lang="scss" scoped>
+@
 .app-wrapper {
-  @include clearfix;
   position: relative;
   height: 100%;
   width: 100%;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.main-container {
+  min-height: 100vh;
+  transition: margin-left 0.28s;
+  margin-left: 256px;
+  background-color: #f0f2f5;
 }
 </style>

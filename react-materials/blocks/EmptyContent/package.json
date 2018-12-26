@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/empty-content-block",
-  "version": "0.1.8",
+  "version": "0.1.12",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/EmptyContent"
   },
   "license": "MIT",
   "keywords": [
@@ -35,19 +33,16 @@
   },
   "blockConfig": {
     "name": "empty-content",
-    "snapshot": "https://img.alicdn.com/tfs/TB1unfJiOqAXuNjy1XdXXaYcVXa-1862-1024.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1unfJiOqAXuNjy1XdXXaYcVXa-1862-1024.png",
     "themePackage": "@icedesign/skin",
     "title": "空内容提示",
     "categories": [
       "异常"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/empty-content"
 }

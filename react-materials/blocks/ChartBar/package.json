@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/chart-bar-block",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/ChartBar"
   },
   "license": "MIT",
   "keywords": [
@@ -36,19 +34,16 @@
   },
   "blockConfig": {
     "name": "chart-bar",
-    "snapshot": "https://img.alicdn.com/tfs/TB1IdeWf5qAXuNjy1XdXXaYcVXa-1900-1042.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1IdeWf5qAXuNjy1XdXXaYcVXa-1900-1042.png",
     "themePackage": "@icedesign/skin",
     "title": "柱状图",
     "categories": [
       "图表"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/chart-bar"
 }

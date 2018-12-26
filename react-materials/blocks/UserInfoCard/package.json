@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/user-info-card-block",
-  "version": "0.1.5",
+  "version": "0.1.8",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/UserInfoCard"
   },
   "license": "MIT",
   "keywords": [
@@ -34,19 +32,16 @@
   },
   "blockConfig": {
     "name": "user-info-card",
-    "snapshot": "https://img.alicdn.com/tfs/TB1NxO4l8fH8KJjy1XbXXbLdXXa-978-668.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1NxO4l8fH8KJjy1XbXXbLdXXa-978-668.png",
     "themePackage": "@icedesign/skin",
     "title": "用户信息展示",
     "categories": [
       "信息展示"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/user-info-card"
 }

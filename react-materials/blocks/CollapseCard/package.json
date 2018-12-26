@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/collapse-card-block",
-  "version": "0.1.7",
+  "version": "0.1.11",
   "description": "折叠型卡片的信息展示",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/CollapseCard"
   },
   "license": "MIT",
   "keywords": [
@@ -35,19 +33,16 @@
   },
   "blockConfig": {
     "name": "collapse-card",
-    "snapshot": "https://img.alicdn.com/tfs/TB1dcIQckyWBuNjy0FpXXassXXa-2350-560.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1dcIQckyWBuNjy0FpXXassXXa-2350-560.png",
     "themePackage": "@icedesign/skin",
     "title": "折叠型卡片的信息展示",
     "categories": [
       "信息展示"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/collapse-card"
 }

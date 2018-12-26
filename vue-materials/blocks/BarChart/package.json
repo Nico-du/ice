@@ -1,7 +1,7 @@
 {
   "name": "@vue-materials/bar-chart-block",
   "version": "1.0.0",
-  "description": "",
+  "description": "v-charts 条形图",
   "author": "ice-admin@alibaba-inc.com",
   "files": [
     "src/",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/BarChart"
   },
   "license": "MIT",
   "keywords": [
@@ -32,6 +32,6 @@
     "categories": [
       "图表"
     ],
-    "snapshot": "https://img.alicdn.com/tfs/TB1LgufnQCWBuNjy0FaXXXUlXXa-1960-908.png"
+    "screenshot": "https://img.alicdn.com/tfs/TB1gSTgpKuSBuNjy1XcXXcYjFXa-2016-876.png"
   }
 }

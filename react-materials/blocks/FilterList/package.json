@@ -1,13 +1,11 @@
 {
   "name": "@icedesign/filter-list-block",
-  "version": "0.1.13",
+  "version": "0.1.16",
   "description": "支持过滤的列表",
   "main": "lib/index.js",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -15,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/FilterList"
   },
   "license": "MIT",
   "keywords": [
@@ -35,19 +33,16 @@
   },
   "blockConfig": {
     "name": "filter-list",
-    "snapshot": "https://img.alicdn.com/tfs/TB1iUbYilfH8KJjy1XbXXbLdXXa-2000-1154.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1iUbYilfH8KJjy1XbXXbLdXXa-2000-1154.png",
     "themePackage": "@icedesign/skin",
     "title": "支持过滤的列表",
     "categories": [
       "列表"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/filter-list"
 }

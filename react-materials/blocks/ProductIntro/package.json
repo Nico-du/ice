@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/product-intro-block",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "用于左文右图产品介绍模块",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/ProductIntro"
   },
   "license": "MIT",
   "keywords": [
@@ -24,10 +22,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  },
-  "scripts": {
-    "start": "ice block dev",
-    "prepublish": "ice block build"
   },
   "dependencies": {
     "@icedesign/base": "^0.1.0",
@@ -43,10 +37,12 @@
   },
   "blockConfig": {
     "name": "product-intro",
-    "snapshot": "https://img.alicdn.com/tfs/TB1FiYUgGmWBuNjy1XaXXXCbXXa-1373-665.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1FiYUgGmWBuNjy1XaXXXCbXXa-1373-665.png",
     "title": "产品介绍区块",
-    "categories": ["信息展示"
+    "categories": [
+      "信息展示"
     ],
     "themePackage": "@icedesign/skin"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/product-intro"
 }

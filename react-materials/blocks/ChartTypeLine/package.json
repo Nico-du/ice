@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/chart-type-line-block",
-  "version": "0.1.7",
+  "version": "0.1.10",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/ChartTypeLine"
   },
   "license": "MIT",
   "keywords": [
@@ -36,19 +34,16 @@
   },
   "blockConfig": {
     "name": "chart-type-line",
-    "snapshot": "https://img.alicdn.com/tfs/TB1Of87isLJ8KJjy0FnXXcFDpXa-1906-1044.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1Of87isLJ8KJjy0FnXXcFDpXa-1906-1044.png",
     "themePackage": "@icedesign/skin",
     "title": "折线图",
     "categories": [
       "图表"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/chart-type-line"
 }

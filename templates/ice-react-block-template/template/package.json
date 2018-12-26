@@ -1,12 +1,11 @@
 {
-  "name": "{{name}}",
+  "name": "{{name}}-block",
   "version": "{{version}}",
   "description": "{{description}}",
   "author": "{{author}}",
-  "files": [
-    "src/",
-    "lib/"
-  ],
+  "files": ["src/","build/","lib/","screenshot.png"],
+  "license": "MIT",
+  "keywords": ["ice","react","block"],
   "dependencies": {
     "react": "^16.2.0",
     "prop-types": "^15.5.8"
@@ -19,6 +18,6 @@
         "{{@key}}"{{#if @last}} {{else}},{{/if}}
       {{/each}}
     ],
-    "snapshot": ""
+    "screenshot": ""
   }
 }

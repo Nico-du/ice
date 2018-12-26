@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/real-time-statistics-block",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/RealTimeStatistics"
   },
   "license": "MIT",
   "keywords": [
@@ -24,10 +22,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  },
-  "scripts": {
-    "start": "ice block dev",
-    "prepublish": "ice block build"
   },
   "dependencies": {
     "@icedesign/base": "^0.2.0",
@@ -43,11 +37,12 @@
   },
   "blockConfig": {
     "name": "real-time-statistics",
-    "snapshot": "https://img.alicdn.com/tfs/TB1TQDxchGYBuNjy0FnXXX5lpXa-2388-324.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1TQDxchGYBuNjy0FnXXX5lpXa-2388-324.png",
     "title": "实时数据统计展示",
     "categories": [
       "数据展示"
     ],
     "themePackage": "@icedesign/skin"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/real-time-statistics"
 }

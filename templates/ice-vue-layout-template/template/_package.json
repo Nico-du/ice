@@ -1,25 +1,11 @@
 {
-  "name": "@vue-materials/{{name}}-layout",
+  "name": "{{name}}",
   "version": "{{version}}",
   "description": "{{description}}",
   "author": "{{author}}",
-  "files": [
-    "src/",
-    "lib/"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alibaba/ice"
-  },
+  "files": ["src/", "lib/"],
   "license": "MIT",
-  "keywords": [
-    "ice",
-    "ice-layout"
-  ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "http://registry.npmjs.com"
-  },
+  "keywords": ["ice", "vue", "layout"],
   "dependencies": {
     "vue": "^2.5.16"
   },
@@ -27,6 +13,6 @@
     "name": "{{name}}",
     "title": "{{title}}",
     "categories": ["布局"],
-    "snapshot": ""
+    "screenshot": ""
   }
 }

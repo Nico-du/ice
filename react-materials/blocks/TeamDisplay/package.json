@@ -1,12 +1,10 @@
 {
   "name": "@icedesign/team-display-block",
-  "version": "0.1.7",
+  "version": "0.1.11",
   "description": "",
   "files": [
     "src/",
-    "demo/",
-    "lib/",
-    "mock/"
+    "build/"
   ],
   "author": {
     "name": "ICE Team",
@@ -14,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ice"
+    "url": "https://github.com/alibaba/ice/tree/master/react-materials/blocks/TeamDisplay"
   },
   "license": "MIT",
   "keywords": [
@@ -34,7 +32,7 @@
   },
   "blockConfig": {
     "name": "team-display",
-    "snapshot": "https://img.alicdn.com/tfs/TB1dUcAauuSBuNjy1XcXXcYjFXa-2184-1568.png",
+    "screenshot": "https://img.alicdn.com/tfs/TB1dUcAauuSBuNjy1XcXXcYjFXa-2184-1568.png",
     "themePackage": "@icedesign/skin",
     "title": "团队展示",
     "categories": [
@@ -42,12 +40,9 @@
       "欢迎页"
     ]
   },
-  "scripts": {
-    "start": "../../node_modules/.bin/ice block dev",
-    "prepublish": "../../node_modules/.bin/ice block build"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "http://registry.npmjs.com"
-  }
+  },
+  "homepage": "https://alibaba.github.io/ice/block/team-display"
 }
